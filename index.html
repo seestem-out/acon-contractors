@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Acon Contractors</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>First Light Safaris</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./css/vendor/spectre.min.css">
+	<link rel="stylesheet" href="./css/vendor/spectre-exp.min.css">
+	<link rel="stylesheet" href="./css/vendor/spectre-icons.min.css">
+	<style>
+	 @font-face {
+	     font-family: 'RubikBurned-Regular';
+	     src: URL('fonts/Kanit-Regular.ttf') format('truetype');
+	 }
+
+	 body{
+	     font-family: 'RubikBurned-Regular';
+	 }
+	 #LOGO{
+	     width: 120px;
+	 }
+
+	 header{
+	     border-bottom: thin solid #f7c500;
+	 }
+
+	 #HERO{
+	     width: 100vw;
+	     background-image: url("img/hero.jpg");
+	     background-size: 100%;
+	     background-attachment: fixed;
+	     height: 80vh;
+	     padding: 14em;
+	     color: #ffffff;
+	 }
+
+	 #ABOUT{
+	     padding: 2em;
+	     font-size: 2em;
+	 }
+
+	 #MISSION_VISION{
+	     padding: 2em;
+	     background-color: #000000;
+	     color: #fcbd27;
+	 }
+
+	 .divider-vert::before{
+	     border-color: #fcbd27;
+	 }
+
+	 .divider-vert[data-content]::after, .divider[data-content]::after{
+	     background-color:#fcbd27;
+	     color: #ffffff;
+	 }
+
+	 #VALUES{
+	     padding: 3em;
+	     background-color: #fcbd27;
+	 }
+
+	 #VALUES p{
+	     font-size: 1.5em;
+	 }
+
+	 #VALUES ul{
+	     padding-left: 4em;
+	 }
+
+	 #VALUES ul li{
+	     font-size: 1.5em;
+	     list-style: square;
+	 }
+	</style>
+    </head>
+    <body>
+	<header class="navbar">
+	    <section class="navbar-section">
+		<a href="..." class="navbar-brand mr-2"><img src="img/logo.jpg" id="LOGO"></a>
+		<a href="..." class="btn btn-link">About</a>
+		<div class="dropdown">
+		    <a href="#" class="btn btn-link dropdown-toggle" tabindex="0">
+			Services <i class="icon icon-caret"></i>
+		    </a>
+
+		    <ul class="menu">
+			<li><a href="/engineering.html" class="btn btn-link">Engineering Services</a></li>
+		    </ul>
+		</div>
+		<a href="..." class="btn btn-link">Contact Us</a>
+		<a href="..." class="btn btn-link">Team</a>
+	    </section>
+	</header>
+	<section id="HERO">
+	    <h1>Always ready to serve you...</h1>
+	    <button class="btn btn-primary btn-lg">Get Quote</button>
+	</section>
+	<section id="ABOUT">
+	    <div class="columns">
+		<div class="col-10 col-mx-auto">
+		    <p>ACON Contractor cc is a Namibian owned company,
+			registered in 2020 February with Business and
+			Intellectual Property Authority (BIPA) to serve
+			Namibian individuals, companies, government
+			institutions, parastatals as well as private entities.
+			ACON employs dedicated, responsible and qualified
+			people.
+		    </p>
+		</div>
+	    </div>
+	</section>
+	<section id="MISSION_VISION">
+	    <div class="columns">
+		<div class="col-5">
+		    <h3>Our Vision</h3>
+		    We strive towards being known as the most reliable
+		    and cost-effective company within the industry.
+		    We are committed to supplying the best service and
+		    quality to our people.
+		</div>
+		<div class="col-1 divider-vert" data-content="&"></div>
+		<div class="col-6">
+		    <h3 class="text-right">Our Mission</h3>
+		    <p class="text-right">
+			Acon is proud to be one of the most informed
+			companies within the industry. We are consistently
+			adapting our methods of approach to suit each
+			client's needs, through a great sense of
+			understanding and communication. By not being
+			subject to only one field of the construction
+			industry, we are proud to be both versatile and
+			forward thinking.
+		    </p>
+		</div>
+	    </div>
+	</section>
+	<section id="VALUES">
+	    <div class="columns">
+		<h3>Our Values</h3>
+		<p class="col-10 col-mx-auto">
+		    We believe firmly in Honesty, Reliability,
+		    Integrity and Consistency. We also take great
+		    pride in Quality Workmanship, and therefore are
+		    continuosly training our staff in order to
+		    guarantee client satisfaction.
+		</p>
+	    </div>
+	    <div class="columns">
+		<div class="col-1"></div>
+		<ul class="col-10">
+		    <li>Customer Satisfaction</li>
+		    <li>Honesty and Integrity</li>
+		    <li>Networking</li>
+		    <li>Winning Team</li>
+		    <li>Diversity and Equity</li>
+		</ul>
+	    </div>
+	</section>
+	<script src="index.js"></script>
+    </body>
+</html>
