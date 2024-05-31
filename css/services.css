@@ -7,12 +7,17 @@ body{
     font-family: 'RubikBurned-Regular';
     color: #000000;
 }
+
+header{
+    background: #ffffff;
+}
+
 #LOGO{
     width: 120px;
 }
 
 header{
-    border-bottom: thin solid #f7c500;
+    border-bottom: thin solid #000000;
 }
 
 .btn.btn-link{
@@ -29,10 +34,13 @@ a{
 
 #LEFTPANEL{
     padding: 2em !important;
+    background-color: #f7c500;
 }
 
 #RIGHTPANEL{
     border-left: thin solid #f7c500;
+    background-color: #000000;
+    color: #f7c500;
 }
 
 #RIGHTPANEL a {
@@ -40,7 +48,8 @@ a{
 }
 .carousel{
     width: 80%;
-    background-color:#f7c500;
+    border: thin solid #f7c500;
+    background: #262626;
 }
 
 .carousel-item img{
